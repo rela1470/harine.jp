@@ -21,7 +21,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #42b983 !important;;
 }
 
 #app {
@@ -89,21 +89,22 @@ a {
 
 .modal-content {
 
-  border: none;
-  border-radius: 0.5em;
-  border-style: solid;
-  border-width: 2px 2px 0px 2px;
-  border-color: #6BBC94;
+  border: none !important;
+  border-radius: 0.5em !important;
+  border-style: solid !important;
+  border-width: 2px 2px 0px 2px !important;
+  border-color: #6BBC94 !important;
 
-  box-shadow: none;
-  background: none;
+  box-shadow: none !important;
+  background: none !important;
 
-  font-family: fot-tsukuardgothic-std, sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: fot-tsukuardgothic-std, sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
 
-  background: #6BBC94;
-  color: #FFFFFF;
+  background: #6BBC94 !important;
+  background-color: #6BBC94 !important;
+  color: #FFFFFF !important;
 
 }
 
