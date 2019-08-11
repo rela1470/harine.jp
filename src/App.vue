@@ -11,6 +11,19 @@ export default {
 </script>
 
 <style>
+
+ul {
+   list-style-type: none;
+   padding: 0;
+ }
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
 #app {
   font-family: a-otf-jun-pro, sans-serif;
   font-style: normal;
@@ -19,6 +32,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #6BBC94;
+  font-size: 90%;
 }
 
 .name {
@@ -40,8 +54,17 @@ export default {
   padding: 2em;
   margin: 1em;
 }
-.profile-2 {
+.text-80 {
   font-size: 80%;
+}
+
+.button-link {
+  border:2px solid;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  text-align: center;
+  padding: 0.5em 2em;
 }
 
 .mail-box {
@@ -63,6 +86,58 @@ export default {
   width :150px;
   text-align:center;
 }
+
+.modal-content {
+
+  border: none;
+  border-radius: 0.5em;
+  border-style: solid;
+  border-width: 2px 2px 0px 2px;
+  border-color: #6BBC94;
+
+  box-shadow: none;
+  background: none;
+
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  background: #6BBC94;
+  color: #FFFFFF;
+
+}
+
+
+.modal-content h5 {
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  background: #FFFFFF;
+  color: #6BBC94;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+.modal-service {
+
+  border-radius: 0em 0em 0.5em 0.5em;
+
+  box-shadow: none;
+  background: none;
+
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  background: #FFFFFF;
+  color: #6BBC94;
+
+  margin: -1em;
+  padding: 0.5em;
+
+}
+
 
 h2 {
   font-family: fot-tsukuardgothic-std, sans-serif;
@@ -91,7 +166,9 @@ h5 {
   color: white;/*文字を白に*/
   border-radius: 0.5em;/*角の丸み*/
 }
+
 @media (min-width: 768px) {
+
   .serviceUp {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);/*位置調整*/
@@ -104,6 +181,36 @@ h5 {
     -webkit-transform: translateY(+55%);
     transform: translateY(+55%);/*位置調整*/
   }
+}
+@media (min-width: 992px) {
+
+
+  .modal-content h3 {
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    background: #FFFFFF;
+    color: #6BBC94;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 2px 2px 0px 2px;
+
+    max-width: 500px;
+
+    -webkit-transform: translateX(17px) translateY(110%);
+    transform: translateX(-17px) translateY(-110%);
+
+    z-index: -1;
+    position: relative;
+  }
+
+  .modal-up {
+    -webkit-transform: translateY(20%);
+    transform:  translateY(-20%);
+  }
+
 }
 
 </style>

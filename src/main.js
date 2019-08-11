@@ -4,6 +4,31 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+
+import Feature from './components/Feature.vue'
+Vue.component('Feature', Feature)
+
+import Service from './components/Service.vue'
+Vue.component('Service', Service)
+
+import Profile from './components/Profile.vue'
+Vue.component('Profile', Profile)
+
+import About from './components/About.vue'
+Vue.component('About', About)
+
+import ModalIllust from './components/ModalIllust.vue'
+Vue.component('ModalIllust', ModalIllust)
+
+import ModalArtDirection from './components/ModalArtDirection.vue'
+Vue.component('ModalArtDirection', ModalArtDirection)
+
+import ModalMovie from './components/ModalMovie.vue'
+Vue.component('ModalMovie', ModalMovie)
+
+import ModalDesign from './components/ModalDesign.vue'
+Vue.component('ModalDesign', ModalDesign)
+
 //FontAwesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 
