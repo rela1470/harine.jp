@@ -226,7 +226,7 @@
   font-size: 11px;
   font-style: DB;
   text-align: left;
-  font-family: FOT-Seurat ProN;
+  font-family: Meiryo;
   font-weight: 400;
   line-height: 18px;
   font-stretch: normal;
@@ -252,7 +252,7 @@
   font-size: 64px;
   font-style: Regular;
   text-align: left;
-  font-family: Meiryo UI;
+  font-family: Meiryo;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
@@ -286,7 +286,7 @@
   font-size: 12px;
   font-style: normal;
   text-align: left;
-  font-family: FOT-Seurat ProN;
+  font-family: Meiryo;
   font-weight: 400px;
   line-height: 18px;
   font-stretch: normal;
@@ -311,7 +311,7 @@
   font-size: 64px;
   font-style: Regular;
   text-align: left;
-  font-family: Meiryo UI;
+  font-family: Meiryo;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
@@ -378,7 +378,7 @@
   font-size: 40px;
   font-style: B;
   text-align: center;
-  font-family: FOT-Chiaro Std;
+  font-family: Meiryo;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
@@ -553,16 +553,16 @@
   text-decoration: none;
 }
 .main-text029 {
-  top: 135px;
+  top: 147px;
   left: 22px;
   color: rgba(107, 184, 146, 1);
   width: 580px;
   height: auto;
   position: absolute;
-  font-size: 64px;
+  font-size: 48px;
   font-style: B;
   text-align: center;
-  font-family: FOT-Chiaro Std;
+  font-family: Meiryo;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
@@ -740,15 +740,15 @@
   text-decoration: none;
 }
 .main-text039 {
-  top: 135px;
+  top: 136px;
   color: rgba(107, 184, 146, 1);
   width: 647px;
   height: auto;
   position: absolute;
-  font-size: 64px;
+  font-size: 48px;
   font-style: B;
   text-align: center;
-  font-family: FOT-Chiaro Std;
+  font-family: Meiryo;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
@@ -907,7 +907,7 @@
   font-size: 64px;
   font-style: B;
   text-align: center;
-  font-family: FOT-Chiaro Std;
+  font-family: Meiryo;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
