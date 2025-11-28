@@ -30,12 +30,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=M+PLUS+1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link href="./index.css?v=20251128-2" rel="stylesheet" />
   </head>
   <body>
-    <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./index.css" rel="stylesheet" />
-
       <div class="main-container">
         <div class="main-main">
           <div class="main-header">
@@ -59,23 +58,24 @@
                   <a href="#contact" class="main-link02 header_link">CONTACT</a>
                 </nav>
               </div>
-              <div data-thq="thq-burger-menu" class="main-burger-menu">
+              <input type="checkbox" id="burger-toggle" class="main-burger-toggle" />
+              <label for="burger-toggle" data-thq="thq-burger-menu" class="main-burger-menu">
                 <svg viewBox="0 0 1024 1024" class="main-icon">
                   <path
                     d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
                   ></path>
                 </svg>
-              </div>
+              </label>
               <div data-thq="thq-mobile-menu" class="main-mobile-menu">
                 <div class="main-nav">
                   <div class="main-top">
-                    <div data-thq="thq-close-menu" class="main-close-menu">
+                    <label for="burger-toggle" data-thq="thq-close-menu" class="main-close-menu">
                       <svg viewBox="0 0 1024 1024" class="main-icon02">
                         <path
                           d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                         ></path>
                       </svg>
-                    </div>
+                    </label>
                   </div>
                   <nav class="main-links1">
                     <a href="#service" class="main-service">SERVICE</a>
@@ -124,20 +124,13 @@
                 class="main-link03"
               >
                 <div class="main-sue02">
-                  <img
-                    alt="square1294"
-                    src="public/external/square1294-w3f-200h.png"
-                    class="main-square"
-                  />
+                  <div class="main-square">
+                    <span class="main-text008">sue02</span>
+                    <span class="main-text006">アートディレクター/イラストレーター/映像編集者</span>
+                  </div>
                   <span class="main-text004">
-                    <span>
-                      飲食店勤務から2012年に専門学校に再入学し、同時期にフリーランスのイラストレーターとして活動を開始する。その後、ゲーム開発会社5社に入社し様々なゲーム開発に参加。2018年にharineとして独立。
-                    </span>
+                    飲食店勤務から2012年に専門学校に再入学し、同時期にフリーランスのイラストレーターとして活動を開始する。その後、ゲーム開発会社5社に入社し様々なゲーム開発に参加。2018年にharineとして独立。
                   </span>
-                  <span class="main-text006 テキスト">
-                    <span>アートディレクター/イラストレーター/映像編集者</span>
-                  </span>
-                  <span class="main-text008"><span>sue02</span></span>
                 </div>
               </a>
               <a
@@ -147,21 +140,14 @@
                 class="main-link04"
               >
                 <div class="main-rela1470">
-                  <img
-                    alt="square5027"
-                    src="public/external/square5027-kt9-200h.png"
-                    class="main-square1"
-                  />
+                  <div class="main-square1">
+                    <span class="main-text014">rela1470</span>
+                    <span class="main-text012">Webエンジニア(PHP)/フルスタックエンジニア</span>
+                  </div>
                   <span class="main-text010">
-                    <span>
-                      株式会社ORATTAにてチーフエンジニア、マネージャー(組織再編)を経験後、コーポレートエンジニアとして株式会社Kyashに入社。
-                      その他技術イベントでの登壇や個人サービス開発等を行う。
-                    </span>
+                    株式会社ORATTAにてチーフエンジニア、マネージャー(組織再編)を経験後、コーポレートエンジニアとして株式会社Kyashに入社。
+                    その他技術イベントでの登壇や個人サービス開発等を行う。
                   </span>
-                  <span class="main-text012 テキスト">
-                    <span>Webエンジニア(PHP)/フルスタックエンジニア</span>
-                  </span>
-                  <span class="main-text014"><span>rela1470</span></span>
                 </div>
               </a>
             </div>
@@ -553,9 +539,5 @@
         </footer>
       </div>
     </div>
-    <script
-      defer=""
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
   </body>
 </html>
